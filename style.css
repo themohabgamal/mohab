@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+/* main */
+.main {
+    background-color: #0A1B24;
+    font-family: 'Rubik Mono One', sans-serif;
+    word-spacing: -20px;
+    line-height: 1rem;
+    background-image: url(imgs/Psychedelic\ Occult\ GIF\ -\ Psychedelic\ Occult\ Road\ -\ Discover\ &\ Share\ GIFs.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-btn {
+
+    border: 4px solid #88f800 !important;
+    color: white !important;
+}
+
+.main-btn:hover {
+    background-color: #3615e7;
+}
+
+.home {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    font-size: 2rem;
+
+}
+
+.icons a {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:900px) {
+    .home {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .head {
+        font-size: 2rem !important;
+        padding-top: 80px;
+    }
+
+    .icons {
+        margin-bottom: 10%;
+    }
+}
+
+.services {
+    background-color: rgb(22, 22, 22);
+}
+
+/* what i do */
+.wid-icons {
+    font-size: 7rem;
+}
+
+.html,
+.css,
+.bootstrap {
+    transition: 0.8s all ease;
+}
+
+.html:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.css:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.bootstrap:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
